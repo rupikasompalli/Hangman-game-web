@@ -1,0 +1,118 @@
+body {
+    text-align:center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#7a7a7a;
+}
+
+.container {
+    max-width:800px;
+    margin: 0 auto;
+    text-align:center
+}
+
+/* css nonsense to make the letter divs align properly inside the window */
+.row {
+    display:flex;
+    justify-content:center;
+}
+
+/* CSS to draw the boxes around each letter */
+.letter {
+    border:1px solid #999;
+    border-radius: 4px;
+    margin:5px;
+    padding:15px;
+    cursor:pointer;
+}
+
+.letter:hover {
+    border:1px solid #555;
+    background-color: #ddd;
+}
+
+/* this gets applied when the person clicks on a letter */
+.already-selected {
+    background-color:grey;
+    cursor:default;
+}
+
+/* css styling for the _ _ _ _ _ section */
+div#word {
+    font-size:26px;
+    padding:20px;
+}
+
+/* css styling for the chances label */
+span.chancesLabel {
+    color:#1d8f50;
+    font-weight:600;
+}
+
+/* css styling for the images */
+img {
+    max-width:100px;
+}
+/* generic css style to hide elements */
+.hidden {
+    display:none;
+}
+
+
+
+/* The following CSS is derived from the skeleton css framework */
+/* ------------------------------------------------------------ */
+.pretty-btn {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+.blue {
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0;
+}
+.red {
+    color: #FFF;
+    background-color:#f14668;
+    border-color:#f14668;
+}
+
+h1, h2, h3, h4 {
+    color:#363636;
+}
+h1 {
+    font-size:1.25rem;
+}
+h2 {
+    font-size:1rem;
+}
+h3 {
+    font-size:0.75rem;
+}
+
+.subtitle {
+    color:#7a7a7a;
+}
+
+div {
+    margin-bottom:24px;
+}
+
+div.row {
+    margin-bottom:5px;
+}
